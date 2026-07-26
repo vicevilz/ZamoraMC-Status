@@ -1,0 +1,2 @@
+check-interval-seconds: 5
+ping-timeout-milliseconds: 2000

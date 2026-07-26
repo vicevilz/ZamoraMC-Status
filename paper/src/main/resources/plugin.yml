@@ -1,0 +1,16 @@
+name: ZamoraMC-Status
+version: '${version}'
+main: com.vicevil.zamoramcstatus.paper.ZamoraMCStatusPaper
+api-version: '1.21'
+description: Exposes the online status of Velocity servers through PlaceholderAPI.
+softdepend:
+  - PlaceholderAPI
+commands:
+  zamoramc-status:
+    description: Reloads ZamoraMC Status.
+    usage: /zamoramc-status reload
+    permission: zamoramcstatus.reload
+permissions:
+  zamoramcstatus.reload:
+    description: Allows reloading ZamoraMC Status.
+    default: op

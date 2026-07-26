@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs and local tooling
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Generated distribution and runtime-test artifacts
+dist/
+runtime-tests/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.zip
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+

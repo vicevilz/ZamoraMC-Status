@@ -1,0 +1,8 @@
+{
+  "id": "zamoramc-status",
+  "name": "ZamoraMC Status",
+  "version": "${version}",
+  "description": "Publishes the online status of Velocity backend servers to Paper placeholders.",
+  "authors": ["ZamoraMC"],
+  "main": "com.vicevil.zamoramcstatus.velocity.ZamoraMCStatusVelocity"
+}
